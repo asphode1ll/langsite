@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+    background-color: #fefefe;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Changa One', sans-serif;
+    font-size: 24px;
+    color: #d5591a;
+    text-transform: uppercase;
+}
+
+.logoImg {
+    height: 35px;
+    margin-right: 10px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #293a4b;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav_link:hover, .nav_link.active {
+    color: #d5591a;
+    font-weight: 600;
+}
+
+.course-intro {
+    text-align: center;
+    padding: 50px 10%;
+    background: #f9ca7f;
+}
+
+.course-intro h1 {
+    font-family: 'Changa One', sans-serif;
+    font-size: 42px;
+    color: #293a4b;
+}
+
+.course-benefits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 10%;
+}
+
+.benefit {
+    width: 30%;
+    text-align: center;
+}
+
+.benefit img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.benefit h2 {
+    font-size: 22px;
+    color: #293a4b;
+    margin-top: 10px;
+}
+
+.benefit p {
+    font-size: 16px;
+    color: #555;
+}
+
+.course-action {
+    text-align: center;
+    padding: 50px 10%;
+    background: #6ba394;
+}
+
+.course-action h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f9ca7f;
+    color: #293a4b;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #deb35e;
+}
+
+.sketchfab-embed-wrapper iframe {
+    background: transparent !important;
+}
+
+.sketchfab-embed-wrapper iframe {
+    width: 100%;
+    height: 300px; /* Можно менять высоту */
+    border-radius: 10px; /* Закругление углов */
+}
+.course-benefits {
+    display: flex;
+    justify-content: space-between;
+}
+.benefit {
+    width: 30%;
+    text-align: center;
+}

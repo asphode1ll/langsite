@@ -1,0 +1,148 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-container h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact-info div {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e65c00;
+  }
+
+  header {
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: space-between;
+    width: 100%;
+    height: 80px; /* Фиксированная высота */
+    background-color: #fefefe;
+    padding: 0 5%; /* Отступы по краям */
+  }
+  
+  /* Логотип */
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d5591a;
+    cursor: pointer;
+  }
+  
+  .logoImg {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logoTone {
+    color: #d5591a;
+  }
+  
+  .logoTtwo {
+    color: #293a4b;
+  }
+  
+  /* Навигация */
+  nav {
+    display: flex;
+    justify-content: center; /* Центрируем ссылки */
+    align-items: center;
+    gap: 30px; /* Уменьшаем расстояние между ссылками */
+    padding: 0 100px;
+  }
+  
+  .nav_link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    color: #293a4b;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  .nav_link:hover {
+    color: #d5591a;
+  }
+  
+  
+  /* Адаптивность */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    .logo {
+      font-size: 24px;
+    }
+  
+    .logoImg {
+      height: 30px;
+    }
+  
+    nav {
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    .nav_link {
+      font-size: 14px;
+    }
+  }
+  

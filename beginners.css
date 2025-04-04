@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+main {
+    background-color: #fefefe;
+    
+}
+
+/* Шапка сайта */
+header {
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    background-color: #fefefe;
+}
+  
+/* Логотип */
+.logo {
+    display: flex;
+    margin: 7vh 15px 0 8%;
+    font-size: 48px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #d5591a;
+    cursor: pointer;
+}
+  
+.logoImg {
+    height: 35px;
+    margin-right: 5px;
+}
+  
+.logoTone {
+    color: #d5591a;
+}
+  
+.logoTtwo {
+    color: #293a4b;
+}
+  
+/* Навигация */
+nav {
+    max-width: 60%;
+    display: flex;
+    margin: 7.5vh 0 0 15%;
+  }
+  
+  .nav_link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 2vw;;
+    text-decoration: none;
+    color: #293a4b;
+    text-transform: uppercase;
+    margin-right: 5%;
+  }
+  
+.nav_link:hover {
+    color: #d5591a;
+}
+  
+/* Вводная часть */
+.intro {
+    width: 100%;
+    height: 100vh;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+  
+/* Зеленая полоска */
+hr {
+    background-color: #6ba394;
+    border: none;
+    height: 3px;
+    margin: 0 6.5% 0 6.5%;
+    width: 87%;
+}
+  
+/* Заголовок вводной части */
+.headContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+  
+.firstStr {
+    font-family: "Changa One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 64px;
+    color: #293a4b;
+    margin: 10% 0 1% 0;
+}
+  
+/* Заголовок, текст и кнопка главной страницы */
+.headContainerText {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 5%;
+}
+  
+.headContainerButton {
+    width: 400px;
+    height: 80px;
+    margin-top: 8%;
+    background-color: #f9ca7f;
+    position: relative;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    padding: 0;
+    transition: background-color 0.3s ease;
+}
+  
+.headContainerButton:hover {
+    box-shadow: none;  
+    outline: none;
+    background-color: #deb35e;
+}
+  
+.button-text {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #293a4b;
+    font-size: 20px; /* Размер текста */
+}
+
+/* нижняя часть сайта с контактами */
+footer {
+    width: 100%;
+    height: 17vh;
+    background-color: #293a4b;
+}
+
+.contacts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inst {
+    margin-top: 7vh;
+    margin-right: 2vh;
+}
+
+.telegram {
+    margin-top: 7vh; 
+}
+
+/*changa fonts*/
+  
+.changa-one-regular {
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.changa-one-regular-italic {
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+/*poppons fonts*/
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
